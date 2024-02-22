@@ -5,7 +5,6 @@ CREATE TABLE CaseMaster(
 CaseId int PRIMARY KEY,
 FilingDate DATE NOT NULL,
 Agency varchar(100)
-
 )
 
 CREATE TABLE CaseDetails(
@@ -14,8 +13,7 @@ DefendantAddress varchar(200)
 )
 
 CREATE TABLE CaseCharge(
-Charge varchar(300),
-
+Charge varchar(300)
 )
 
 CREATE TABLE Cases(
@@ -26,5 +24,4 @@ Agency varchar(50) null,
 DefendantName varchar(50) null,
 DefendantAddress varchar(100) null,
 Charges varchar(400) null
-
 )
